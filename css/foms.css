@@ -1,0 +1,16 @@
+input[type=text] {
+  background: transparent;
+  border: none;
+  border-bottom: solid #EEE 1px;
+  color: #EEE;
+  outline: none;
+  text-align: center; }
+  input[type=text]::placeholder {
+    text-align: center;
+    color: #eee; }
+
+input[type=submit] {
+  background-color: #730101;
+  color: #EEE;
+  border: solid 1px #EEE;
+  padding: 5px; }

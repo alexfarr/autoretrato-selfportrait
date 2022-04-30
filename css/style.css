@@ -1,0 +1,62 @@
+input[type=text] {
+  background: transparent;
+  border: none;
+  border-bottom: solid #EEE 1px;
+  color: #EEE;
+  outline: none;
+  text-align: center; }
+  input[type=text]::placeholder {
+    text-align: center;
+    color: #eee; }
+
+input[type=submit] {
+  background-color: #730101;
+  color: #EEE;
+  border: solid 1px #EEE;
+  padding: 5px; }
+
+@font-face {
+  font-family: 'IM FELL Great Primer SC';
+  src: url("../fonts/IMFeGPsc29P.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'IM FELL Great Primer';
+  src: url("../fonts/IMFeGPrm29P.ttf") format("truetype"); }
+
+body {
+  background-color: #730101;
+  color: #EEE;
+  font-family: 'IM FELL Great Primer', 'Open Sans', serif;
+  font-size: 20px; }
+
+#container {
+  max-width: 1200px;
+  margin: 0 auto; }
+
+#header {
+  display: flex;
+  justify-content: space-between; }
+
+#main {
+  margin: 100px 0; }
+
+#footer {
+  text-align: center;
+  font-size: 28px; }
+
+.banner {
+  background-image: url("../images/reddress.webp");
+  width: 100%;
+  height: 400px; }
+
+h1,
+h2 {
+  font-family: 'IM FELL Great Primer SC', 'Open Sans', serif;
+  text-align: center;
+  font-weight: normal; }
+
+h1 {
+  font-size: 64px; }
+
+h2 {
+  font-size: 48px; }
