@@ -15,7 +15,11 @@ body {
   background-color: $background-colour;
   color: $font-colour;
   font-family: 'IM FELL Great Primer', 'Open Sans', serif;
-  font-size: 20px;
+
+  font-size: 16px;
+  @media only screen and (min-width: 600px) {
+    font-size: 20px;
+  }
 }
 
 #container {
@@ -29,12 +33,18 @@ body {
 }
 
 #main {
-  margin: 100px 0;
+  margin: 50px 0;
+  @media only screen and (min-width: 600px) {
+    margin: 100px 0;
+  }
 }
 
 #footer {
   text-align: center;
-  font-size: 28px;
+  font-size: 16px;
+  @media only screen and (min-width: 600px) {
+    font-size: 28px;
+  }
 }
 
 .banner {
@@ -51,11 +61,17 @@ h2 {
 }
 
 h1 {
-  font-size: 64px;
+  font-size: 28px;
+  @media only screen and (min-width: 600px) {
+    font-size: 64px;
+  }
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 24px;
+  @media only screen and (min-width: 600px) {
+    font-size: 48px;
+  }
 }
 
 a {
@@ -65,12 +81,18 @@ a {
 a.contact {
   text-decoration: none;
   border: solid 1px $font-colour;
-  padding: 10px;
+  padding: 5px;
+  vertical-align: middle;
 }
 
 .comming_soon {
   padding: 10px;
 }
+
 .social-link {
-  font-size: 40px;
+  font-size: 30px;
+  @media only screen and (min-width: 600px) {
+    font-size: 40px;
+  }
+  vertical-align: middle;
 }
