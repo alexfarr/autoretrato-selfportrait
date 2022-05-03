@@ -57,3 +57,17 @@ h1 {
 h2 {
   font-size: 48px;
 }
+
+a {
+  color: $font-colour;
+}
+
+a.contact {
+  text-decoration: none;
+  border: solid 1px $font-colour;
+  padding: 10px;
+}
+
+.comming_soon {
+  padding: 10px;
+}

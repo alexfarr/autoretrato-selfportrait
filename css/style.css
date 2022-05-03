@@ -60,3 +60,14 @@ h1 {
 
 h2 {
   font-size: 48px; }
+
+a {
+  color: #EEE; }
+
+a.contact {
+  text-decoration: none;
+  border: solid 1px #EEE;
+  padding: 10px; }
+
+.comming_soon {
+  padding: 10px; }
