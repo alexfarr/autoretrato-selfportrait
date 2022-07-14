@@ -1,5 +1,6 @@
 @import "variables";
 @import "foms";
+@import "menu";
 
 @font-face {
   font-family: 'IM FELL Great Primer SC';
@@ -9,6 +10,10 @@
 @font-face {
   font-family: 'IM FELL Great Primer';
   src: url('../fonts/IMFeGPrm29P.ttf') format('truetype');
+}
+html, body {
+  margin: 0;
+  height: 100%;
 }
 
 body {
