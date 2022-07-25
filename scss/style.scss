@@ -15,6 +15,7 @@
 html, body {
   margin: 0;
   height: 100%;
+
 }
 
 body {
@@ -22,9 +23,9 @@ body {
   color: $font-colour;
   font-family: 'IM FELL Great Primer', 'Open Sans', serif;
 
-  font-size: 16px;
+  font-size: 20px;
   @media only screen and (min-width: 600px) {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
@@ -39,9 +40,9 @@ body {
 }
 
 #main {
-  margin: 50px 0;
+  margin: 50px 1em;
   @media only screen and (min-width: 600px) {
-    margin: 100px 0;
+    margin: 100px 1em;
   }
 }
 
@@ -70,9 +71,9 @@ h2 {
 }
 
 h1 {
-  font-size: 28px;
+  font-size: 2em;
   @media only screen and (min-width: 600px) {
-    font-size: 64px;
+    font-size: 3em;
   }
 }
 
@@ -116,4 +117,16 @@ hr {
     height: 3px;
     border-bottom: 1px solid $font-colour;
   }
+}
+
+.jump-to-top {
+  float: right;
+  text-decoration: none;
+  font-family: Verdana,sans-serif;
+  border: solid 1px #EEE;
+  border-radius: 5px;
+  width: 20px;
+  height: 17px;
+  text-align: center;
+  padding-top: 3px;
 }
