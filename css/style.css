@@ -139,6 +139,18 @@ nav {
 .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
   transform: rotate(-45deg); }
 
+.bio {
+  margin: 31px 0; }
+
+.bio_image {
+  max-width: 200px;
+  margin-top: 1em; }
+
+.bio_grid {
+  display: grid;
+  grid-template-columns: 200px auto;
+  column-gap: 30px; }
+
 @font-face {
   font-family: 'IM FELL Great Primer SC';
   src: url("../fonts/IMFeGPsc29P.ttf") format("truetype"); }
@@ -225,3 +237,12 @@ a.contact {
   @media only screen and (min-width: 600px) {
     .social-link {
       font-size: 40px; } }
+
+hr {
+  border: none;
+  border-top: 2px solid #EEE;
+  padding: 0;
+  width: 30%; }
+  hr.double {
+    height: 3px;
+    border-bottom: 1px solid #EEE; }

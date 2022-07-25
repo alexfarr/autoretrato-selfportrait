@@ -1,0 +1,14 @@
+.bio {
+  margin: 31px 0;
+}
+
+.bio_image {
+  max-width: 200px;
+  margin-top: 1em;
+}
+
+.bio_grid {
+  display: grid;
+  grid-template-columns: 200px auto;
+  column-gap: 30px;
+}
