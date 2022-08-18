@@ -1,3 +1,25 @@
+h3 {
+  padding: 30px 0 8px;
+  position: relative; }
+
+h3:before {
+  content: "";
+  position: absolute;
+  left: 7%;
+  bottom: 16px;
+  width: 95%;
+  height: 21px;
+  transform: skew(-12deg) translateX(-50%);
+  background: rgba(238, 111, 87, 0.5);
+  z-index: -1; }
+
+.space-above {
+  margin-top: 3em; }
+
+.title-font {
+  font-family: 'IM FELL Great Primer', 'Open Sans', serif;
+  text-transform: uppercase; }
+
 input[type=text] {
   background: transparent;
   border: none;
@@ -145,7 +167,11 @@ nav {
 
 .bio_image {
   max-width: 100%;
-  margin-top: 1em; }
+  margin-top: 1em;
+  margin-bottom: 1em;
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%); }
   @media only screen and (min-width: 600px) {
     .bio_image {
       max-width: 200px; } }
@@ -177,8 +203,11 @@ body {
     body {
       font-size: 18px; } }
 
-h1, h2, h3, h4, h5, .has-dropcap {
+h1, h2, h3, h4, h5 {
   font-family: 'IM FELL Great Primer', 'Open Sans', serif; }
+
+h3 {
+  font-size: 1.2em; }
 
 #container {
   max-width: 1200px;
@@ -277,7 +306,8 @@ https://codepen.io/gymnasium/pen/GRpMJzL
 https://codepen.io/gymnasium/pen/LYpzVar
 - - -
 */
-.has-dropcap:first-letter {
+.dropcap {
+  font-family: 'IM FELL Great Primer', 'Open Sans', serif;
   float: left;
   font-size: 3rem;
   line-height: 0.65;
@@ -299,3 +329,7 @@ https://codepen.io/gymnasium/pen/LYpzVar
     .embed-container {
       max-width: 50%;
       padding-bottom: 28%; } }
+
+#contributors ul li {
+  list-style: "- ";
+  margin-top: 1em; }

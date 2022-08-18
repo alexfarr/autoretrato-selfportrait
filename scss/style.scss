@@ -1,4 +1,5 @@
 @import "variables";
+@import "typography";
 @import "foms";
 @import "menu";
 @import "bio";
@@ -15,7 +16,6 @@
 html, body {
   margin: 0;
   height: 100%;
-
 }
 
 body {
@@ -28,8 +28,12 @@ body {
   }
 }
 
-h1, h2, h3, h4, h5, .has-dropcap {
+h1, h2, h3, h4, h5 {
   font-family: 'IM FELL Great Primer', 'Open Sans', serif;
+}
+
+h3 {
+  font-size: 1.2em;
 }
 
 #container {
@@ -145,7 +149,8 @@ https://codepen.io/gymnasium/pen/LYpzVar
 - - -
 */
 
-.has-dropcap:first-letter {
+.dropcap {
+  font-family: 'IM FELL Great Primer', 'Open Sans', serif;
   float: left;
   font-size: 3rem;
   line-height: 0.65;
@@ -170,5 +175,12 @@ https://codepen.io/gymnasium/pen/LYpzVar
   @media only screen and (min-width: 600px) {
     max-width: 50%;
     padding-bottom: 28%;
+  }
+}
+
+#contributors ul {
+  li {
+    list-style: "- ";
+    margin-top: 1em;
   }
 }
